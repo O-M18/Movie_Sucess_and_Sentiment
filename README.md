@@ -16,9 +16,7 @@ This project is an end-to-end Streamlit-based web application that predicts whet
 ---
 
 ## Demo
-
-[Watch Demo Video Here](#)  
-*Replace the above link with your demo video (e.g., YouTube or Loom)*
+contain a demo video of the full streamlit app in repo
 
 ---
 
