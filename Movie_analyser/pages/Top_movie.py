@@ -14,10 +14,10 @@ def get_top_movies(order_by="Positive_score", top_n=6):
         """
         return pd.read_sql_query(query, conn, params=(top_n,))
 st.set_page_config(layout="wide", page_title="Top Movies", page_icon="🎬")
-st.title("⭐ Top Movies by Sentiment")
+st.title("⭐ TOP MOVIES BY SENTIMENT")
 
 # Sentiment toggle
-sentiment = st.radio("Show by sentiment:", ["Positive", "Negative"], horizontal=True)
+sentiment = st.radio(" ", ["Positive", "Negative"], horizontal=True)
 order_by = "Positive_score" if sentiment == "Positive" else "Negative_score"
 
 # Fetch data

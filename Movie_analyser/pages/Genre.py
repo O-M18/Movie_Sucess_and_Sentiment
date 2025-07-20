@@ -8,7 +8,7 @@ import joblib
 # Config
 # -------------------
 st.set_page_config(page_title="🎯 Genre-wise Prediction", page_icon="🎬")
-st.title("🎯 Predict Movie Success by Genre")
+st.title("🎯:green[MOVIES SUCESS PREDICTION]")
 
 # -------------------
 # Load Model + Preprocessing Function
@@ -53,7 +53,6 @@ filtered_df = df[df['genre_list'].apply(lambda x: selected_genre in x)]
 # -------------------
 # Predict & Display
 # -------------------
-st.dataframe(filtered_df)
 if filtered_df.empty:
     st.warning("No movies found for selected genre.")
 else:

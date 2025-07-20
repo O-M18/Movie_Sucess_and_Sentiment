@@ -7,13 +7,14 @@ from Update import Insert_value, update_score
 st.set_page_config(
     page_title="🎬 Movie  App",    
     page_icon="🍿",                        
-    layout="centered")
+    layout="centered",
+    initial_sidebar_state="collapsed")
 
 
-st.title("🎬 Movie Search App")
+st.title("🎞️:red[CINEMA LAND]")
 
 # 1. User inputs movie name
-query = st.text_input("Search for a movie")
+query = st.text_input("Search for a movie:red")
 
 # 2. Fetch movie options
 if query:
